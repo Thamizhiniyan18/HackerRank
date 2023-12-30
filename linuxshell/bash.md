@@ -156,3 +156,93 @@ printf %.3f $(echo "$total / $N" | bc -l)
 
 ## Functions and Fractals - Recursive Trees - Bash!
 
+This challenge involves the construction of trees, in the form of ASCII Art.
+
+We have to deal with real world constraints, so we cannot keep repeating the pattern infinitely. So, we will provide you a number of iterations, and you need to generate the ASCII version of the Fractal Tree for only those many iterations (or, levels of recursion).
+
+{% code lineNumbers="true" %}
+```shell
+declare -A matrix
+
+
+grid()
+{
+    for(( i=0; i < $1; i++ )) do
+    
+        for(( j=0; j<$2; j++ )); do 
+        
+            matrix[$i,$j]="_"  
+        
+        done
+        
+    done
+}
+
+print()
+{
+    for(( i=0; i < $1; i++ )) do
+    
+        for(( j=0; j<$2; j++ )); do
+         
+            printf "%s" ${matrix[$i,$j]} 
+        
+        done
+        
+        printf "\n"
+        
+    done
+}
+
+fractal()
+{
+    local r=$1 
+    local c=$2    
+    local itr=$3 
+    local depth=$(($4 - 1))
+    
+    if (( depth == 0 )); then 
+        return 0; 
+    fi
+    
+    #make the trunk
+    for(( i=0; i<$itr; i++ )); do 
+        matrix[$(($r - $i)),$c]="1" 
+    done
+            
+    #left diagonal
+    for(( i=0; i<$itr; i++ )); do 
+        matrix[$(($r - $itr - $i)),$(($c - $i - 1))]="1"; 
+    done  
+      
+    #right diagonal
+    for(( i=0; i<$itr; i++ )); do 
+        matrix[$(($r - $itr - $i)),$(($c + $i + 1))]="1"; 
+    done 
+       
+    #make Y in left diagonal
+    fractal $(($r - 2 * $itr)) $(($c - $itr)) $(($itr / 2)) $depth 
+    
+    #make Y in right diagonal  
+    fractal $(($r - 2 * $itr)) $(($c + $itr)) $(($itr / 2)) $depth 
+       
+}
+
+main()
+{
+
+    ROWS=63 
+    COLS=100
+
+    grid $ROWS $COLS
+
+    read depth
+    
+    fractal 62 49 16 $(($depth + 1))
+
+    print $ROWS $COLS
+    
+}
+
+main
+```
+{% endcode %}

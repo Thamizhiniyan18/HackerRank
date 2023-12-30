@@ -19,3 +19,13 @@
   * [Grep](linuxshell/grep-sed-awk/grep.md)
   * [Sed](linuxshell/grep-sed-awk/sed.md)
   * [Awk](linuxshell/grep-sed-awk/awk.md)
+
+## Regex
+
+* [Introduction](regex/introduction.md)
+* [Character Class](regex/character-class.md)
+* [Repetitions](regex/repetitions.md)
+* [Grouping and Capturing](regex/grouping-and-capturing.md)
+* [Backreferences](regex/backreferences.md)
+* [Assertions](regex/assertions.md)
+* [Applications](regex/applications.md)
