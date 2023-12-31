@@ -68,6 +68,47 @@ for _ in range(int(input())):
 
 ***
 
+## Alien Username
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+regex_pattern = r'^[_\.]\d+[a-zA-Z]*_?$'
+
+for _ in range(0, int(input())):
+    print("VALID") if re.findall(regex_pattern, input()) else print("INVALID")
+```
+{% endcode %}
+
+***
+
+## IP Address Validation
+
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+ipv4_regex_pattern = r'^(25[0-5]|2[0-4]\d|1\d{2}|\d\d?)\.(25[0-5]|2[0-4]\d|1\d{2}|\d\d?)\.(25[0-5]|2[0-4]\d|1\d{2}|\d\d?)\.(25[0-5]|2[0-4]\d|1\d{2}|\d\d?)$'
+ipv6_regex_pattern = r'^[a-f\d]{0,4}:[a-f\d]{0,4}:?[a-f\d]{0,4}:?[a-f\d]{0,4}:?[a-f\d]{0,4}:?[a-f\d]{0,4}:?[a-f\d]{0,4}:[a-f\d]{0,4}$'
+
+for i in range(0, int(input())):
+    address = input()
+    if re.findall(ipv4_regex_pattern, address):
+        print("IPv4")
+    elif re.findall(ipv6_regex_pattern, address):
+        print("IPv6")
+    else:
+        print("Neither")
+```
+{% endcode %}
+
+***
+
 ## HackerRank Language
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
