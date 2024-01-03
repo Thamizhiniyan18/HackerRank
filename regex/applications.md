@@ -109,6 +109,174 @@ for i in range(0, int(input())):
 
 ***
 
+## Detecting Valid Latitude and Longitude Pairs
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+regex_pattern = r'\([\+-]?(90(\.0+)?|[0-8]\d(\.\d+)?|\d(\.\d+)?),\s[\+-]?(180(\.0+)?|1[0-7]\d(\.\d+)?|\d{1,2}(\.\d+)?)\)'
+
+for _ in range(0, int(input())):
+    print("Valid") if re.findall(regex_pattern, input()) else print("Invalid")
+```
+{% endcode %}
+
+***
+
+## HackerRank Tweets
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+### Method 1
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+regex_pattern = r'(?i)hackerrank' # Mode Modifiers
+
+tweets = 0
+
+for i in range(0, int(input())):
+    if re.findall(regex_pattern, input()):
+        tweets += 1
+        
+print(tweets)
+```
+{% endcode %}
+
+### Method 2
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+regex_pattern = r'[Hh][Aa][Cc][Kk][Ee][Rr]{2}[Aa][Nn][Kk]'
+
+tweets = 0
+
+for i in range(0, int(input())):
+    if re.findall(regex_pattern, input()):
+        tweets += 1
+        
+print(tweets)
+```
+{% endcode %}
+
+***
+
+## Build a Stack Exchange Scraper
+
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+import sys
+
+identifier_regex = r'(?<=questions\/)\d+(?=\/)'
+questions_regex = r'(?<=question-hyperlink">).+(?=<\/a>)'
+time_regex = r'(?<=relativetime">).+(?=<\/span>)'
+
+fragment = sys.stdin.read()
+
+identifiers = re.findall(identifier_regex, fragment)
+questions = re.findall(questions_regex, fragment)
+time = re.findall(time_regex, fragment)
+
+for each in zip(identifiers, questions, time):
+    print(";".join(each))
+```
+{% endcode %}
+
+***
+
+## Utopian Identification Number
+
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+regex_pattern = r'^[a-z]{0,3}\d{2,8}[A-Z]{3,}'
+
+for i in range(0, int(input())):
+    print("VALID") if re.findall(regex_pattern, input()) else print("INVALID")
+```
+{% endcode %}
+
+***
+
+## Valid Pan Format
+
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+regex_pattern = r'^[A-Z]{5}\d{4}[A-Z]$'
+
+for _ in range(int(input())):
+    print("YES") if re.match(regex_pattern, input()) else print("NO")
+```
+{% endcode %}
+
+***
+
+## Find HackerRank
+
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+starts_regex_pattern = r'^hackerrank\b'
+ends_regex_pattern = r'\bhackerrank$'
+
+for i in range(0, int(input())):
+    conversation = input()
+    isStartingWith = re.findall(starts_regex_pattern, conversation)
+    isEndingWith = re.findall(ends_regex_pattern, conversation)
+        
+    if isStartingWith and isEndingWith:
+        print("0")
+    elif isStartingWith:
+        print("1")
+    elif isEndingWith:
+        print("2")
+    else:
+        print("-1")
+```
+{% endcode %}
+
+***
+
+## Saying Hi
+
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+regex_pattern = r'^[Hh][Ii]\s[^Dd]'
+
+for _ in range(0, int(input())):
+    sentence = input()
+    
+    if re.findall(regex_pattern, sentence):
+        print(sentence)
+```
+{% endcode %}
+
+***
+
 ## HackerRank Language
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
@@ -121,5 +289,92 @@ Regex_Pattern = r'^\d{5}\s(C|CPP|JAVA|PYTHON|PERL|PHP|RUBY|CSHARP|HASKELL|CLOJUR
 
 for _ in range(0, int(input())):
     print("VALID") if re.findall(Regex_Pattern, input()) else print("INVALID")
+```
+{% endcode %}
+
+***
+
+## Split the Phone Numbers
+
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+regex_pattern = r'^(?P<countryCode>\d{1,3})(-|\s)(?P<areaCode>\d{1,3})(-|\s)(?P<number>\d{4,10})$'
+
+for _ in range(0, int(input())):
+    matches = re.search(regex_pattern, input())
+    print(f"CountryCode={matches.group('countryCode')},LocalAreaCode={matches.group('areaCode')},Number={matches.group('number')}")
+```
+{% endcode %}
+
+***
+
+## Detect HTML Attributes
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+tagsDict = dict()
+
+for _ in range(0, int(input())):
+    fragment = input()
+    
+    tags = re.findall(r'<[a-z\d]+\s?[\w\s="-:;?\[\]/]*/?>', fragment)
+    for each in tags:
+        tag = re.findall(r'<([a-z\d]+)', each)
+        if tag[0] not in tagsDict.keys():
+            tagsDict[tag[0]] = set()
+        for attribute in re.findall(r'\s([a-z]+)(?==)', each):
+            tagsDict[tag[0]].add(attribute)
+
+for each in sorted(tagsDict.keys()):
+    print(each + ":" + ",".join(sorted(tagsDict[each])))
+```
+{% endcode %}
+
+***
+
+## The British and American Style of Spelling
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+paragraph = ""
+
+for _ in range(0, int(input())):
+    paragraph += " " + input()
+    
+for _ in range(0, int(input())):
+    print(len(re.findall(fr'{input()[:-2]}[zs]e', paragraph)))
+```
+{% endcode %}
+
+***
+
+## UK and US: Part 2
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+paragraph = ""
+
+for _ in range(0, int(input())):
+    paragraph += " " + input()
+
+for _ in range(0, int(input())):
+    ukWord = input()
+    print(len(re.findall(fr'\b({ukWord}|{ukWord.replace("our", "or")})\b', paragraph)))
 ```
 {% endcode %}
