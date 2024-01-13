@@ -475,3 +475,24 @@ print(";".join(sorted(domains)))
 ## Building a Smart IDE: Identifying comments
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import sys
+import re
+
+program = sys.stdin.read()
+
+comments = re.findall(r'(//.*)|(/\*\*[\w^+.\s:\-,()]*\*\*/)|(/\*[\w^+.\s:\-,()]*\*/)', program)
+
+for each in comments:
+    for i in each:
+        if i:
+            for j in i.split("\n"):
+                print(j.strip())
+```
+{% endcode %}
+
+***
+
+## Building a Smart IDE: Programming Language Detection
