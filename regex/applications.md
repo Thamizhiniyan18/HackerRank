@@ -378,3 +378,52 @@ for _ in range(0, int(input())):
     print(len(re.findall(fr'\b({ukWord}|{ukWord.replace("our", "or")})\b', paragraph)))
 ```
 {% endcode %}
+
+***
+
+## Detect HTML Links
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+for _ in range(0, int(input())):
+    fragment = input()
+    
+    aTags = re.findall(r'<a\shref=\"([\w$-_.+!*\'()/&?=:%\[\]]+)\"[^>]*(>.*?<)/a>', fragment)
+    for each in aTags:
+        link = each[0]
+        text = re.findall(r'(?<=>)([\w\s.,/]+)(?=<)', each[1])
+        print(link + "," + text[0].strip() if text else link + ",")
+```
+{% endcode %}
+
+***
+
+## Find a Word
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+lines = ""
+
+for _ in range(0, int(input())):
+    lines += " " + input()
+    
+for _ in range(0, int(input())):
+    word = input()
+    
+    print(len(re.findall(rf'\b{word}\b', lines)))
+```
+{% endcode %}
+
+***
+
+## Detect the Email Address
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
