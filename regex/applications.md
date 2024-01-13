@@ -404,7 +404,7 @@ for _ in range(0, int(input())):
 
 ## Find a Word
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -426,4 +426,52 @@ for _ in range(0, int(input())):
 
 ## Detect the Email Address
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+emails = set()
+
+for _ in range(0, int(input())):
+    line = input()
+    
+    regex_emails = re.findall(r'\b[\w.]+@\w+[(\.\w+)]+\b', line)
+
+    for each in regex_emails:
+        emails.add(each)
+
+print(";".join(sorted(emails)))
+```
+{% endcode %}
+
+***
+
+## Detect the Domain Name
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+
+domains = set()
+
+for _ in range(0, int(input())):
+    line = input()
+    
+    regex_domains = re.findall(r'\bhttps?[(%3A)|:][(%2F)|/]{2}(?:[w\d]{3}.)?([\w\-]+\.(?:[\w\-]+\.)*[\w\-]+)\b', line)
+
+    for each in regex_domains:
+        domains.add(each)
+
+print(";".join(sorted(domains)))
+```
+{% endcode %}
+
+***
+
+## Building a Smart IDE: Identifying comments
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
