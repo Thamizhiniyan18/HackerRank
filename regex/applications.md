@@ -450,7 +450,7 @@ print(";".join(sorted(emails)))
 
 ## Detect the Domain Name
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -474,7 +474,7 @@ print(";".join(sorted(domains)))
 
 ## Building a Smart IDE: Identifying comments
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -496,3 +496,21 @@ for each in comments:
 ***
 
 ## Building a Smart IDE: Programming Language Detection
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+{% code lineNumbers="true" %}
+```python
+import re
+import sys
+
+program = sys.stdin.read()
+
+if re.search(r'#include<[a-z.]+>', program):
+    print("C")
+if re.search(r'import [a-zA-Z.\*]+;', program):
+    print("Java")
+if re.search(r'print (").*\1|class \w+:|def \w+\([\w,]*\):', program):
+    print("Python")
+```
+{% endcode %}
