@@ -33,3 +33,4 @@
 ## Python
 
 * [Introduction](python/introduction.md)
+* [Basic Data Types](python/basic-data-types.md)
