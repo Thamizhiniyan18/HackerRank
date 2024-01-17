@@ -34,3 +34,4 @@
 
 * [Introduction](python/introduction.md)
 * [Basic Data Types](python/basic-data-types.md)
+* [Strings](python/strings.md)
