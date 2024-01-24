@@ -36,3 +36,4 @@
 * [Basic Data Types](python/basic-data-types.md)
 * [Strings](python/strings.md)
 * [Sets](python/sets.md)
+* [Math](python/math.md)
