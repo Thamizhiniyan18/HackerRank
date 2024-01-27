@@ -37,3 +37,4 @@
 * [Strings](python/strings.md)
 * [Sets](python/sets.md)
 * [Math](python/math.md)
+* [Itertools](python/itertools.md)
