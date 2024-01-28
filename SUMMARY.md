@@ -40,3 +40,4 @@
 * [Itertools](python/itertools.md)
 * [Collections](python/collections.md)
 * [Date and Time](python/date-and-time.md)
+* [Errors and Exceptions](python/errors-and-exceptions.md)
