@@ -38,3 +38,4 @@
 * [Sets](python/sets.md)
 * [Math](python/math.md)
 * [Itertools](python/itertools.md)
+* [Collections](python/collections.md)
