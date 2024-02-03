@@ -4,7 +4,7 @@
 
 ## Matching Same Text Again & Again
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```regex
 ([a-z]\w\s\W\d\D[A-Z][a-zA-Z][aeiouAEIOU]\S)\1
@@ -28,7 +28,7 @@ Your task is to write a regex which will match S, with following condition(s):
 
 ## Branch Reset Groups
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```regex
 ^\d{2}(-(?:--)?|\.|:)\d{2}\1\d{2}\1\d{2}$
@@ -38,7 +38,7 @@ Your task is to write a regex which will match S, with following condition(s):
 
 ## Forward References
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```regex
 ^(\2tic|(tac))+$
