@@ -43,3 +43,4 @@
 * [Errors and Exceptions](python/errors-and-exceptions.md)
 * [Classes](python/classes.md)
 * [Built-Ins](python/built-ins.md)
+* [Python Functionals](python/python-functionals.md)
