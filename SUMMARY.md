@@ -44,3 +44,4 @@
 * [Classes](python/classes.md)
 * [Built-Ins](python/built-ins.md)
 * [Python Functionals](python/python-functionals.md)
+* [Regex and Parsing](python/regex-and-parsing.md)

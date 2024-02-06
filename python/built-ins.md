@@ -4,7 +4,7 @@
 
 ## Zipped!
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 n, x = map(int, input().split())
@@ -19,7 +19,7 @@ for each in zip(*marks):
 
 ## Input()
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 x, k = map(int, input().split())
@@ -31,7 +31,7 @@ print(True) if eval(input()) == k else print(False)
 
 ## Python Evaluation
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 eval(input())
@@ -41,7 +41,7 @@ eval(input())
 
 ## Any or All
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -54,7 +54,7 @@ print(all([each > 0 for each in integers]) and any([str(each) == str(each)[::-1]
 
 ## Athlete Sort
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 n, m = map(int, input().split())
@@ -69,7 +69,7 @@ for each in sorted(details, key=lambda x: x[k]):
 
 ## ginortS
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import string
