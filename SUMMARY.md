@@ -46,3 +46,4 @@
 * [Python Functionals](python/python-functionals.md)
 * [Regex and Parsing](python/regex-and-parsing.md)
 * [XML](python/xml.md)
+* [Closures and Decorators](python/closures-and-decorators.md)

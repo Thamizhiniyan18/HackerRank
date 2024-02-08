@@ -19,7 +19,7 @@ for each in zip(*marks):
 
 ## Input()
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 x, k = map(int, input().split())
@@ -31,7 +31,7 @@ print(True) if eval(input()) == k else print(False)
 
 ## Python Evaluation
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 eval(input())
