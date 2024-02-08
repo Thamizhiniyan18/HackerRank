@@ -45,3 +45,4 @@
 * [Built-Ins](python/built-ins.md)
 * [Python Functionals](python/python-functionals.md)
 * [Regex and Parsing](python/regex-and-parsing.md)
+* [XML](python/xml.md)

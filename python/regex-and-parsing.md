@@ -158,9 +158,9 @@ for each in re.findall(r"[ ,:](#[\dabcdefABCDEF]{6}|#[\dabcdefABCDEF]{3})", css)
 
 ## HTML Parser - Part 1
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from html.parser import HTMLParser
@@ -193,7 +193,7 @@ parser.feed(html)
 
 ## HTML Parser - Part 2
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from html.parser import HTMLParser

@@ -4,7 +4,7 @@
 
 ## Introduction to Sets
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
 ## Set .add()
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -134,7 +134,7 @@ print(len(english_newspaper.symmetric_difference(french_newspaper)))
 
 ## Symmetric Difference
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
