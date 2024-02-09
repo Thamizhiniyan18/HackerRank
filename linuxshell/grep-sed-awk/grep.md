@@ -6,7 +6,7 @@
 
 ## Regexp Cheatsheet
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Source: <a href="https://regexr.com/">https://regexr.com/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Source: <a href="https://regexr.com/">https://regexr.com/</a></p></figcaption></figure>
 
 ## 'Grep' #1
 

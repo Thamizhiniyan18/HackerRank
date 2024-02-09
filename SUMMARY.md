@@ -47,3 +47,5 @@
 * [Regex and Parsing](python/regex-and-parsing.md)
 * [XML](python/xml.md)
 * [Closures and Decorators](python/closures-and-decorators.md)
+* [Numpy](python/numpy.md)
+* [Debugging](python/debugging.md)
