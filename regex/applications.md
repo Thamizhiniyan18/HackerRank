@@ -4,7 +4,7 @@
 
 ## Detect HTML Tags
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -28,7 +28,7 @@ print(";".join(sorted(tags)))
 
 ## Find A Sub-Word
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
 ### Method 1
 
@@ -70,7 +70,7 @@ for _ in range(int(input())):
 
 ## Alien Username
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -87,7 +87,7 @@ for _ in range(0, int(input())):
 
 ## IP Address Validation
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -111,7 +111,7 @@ for i in range(0, int(input())):
 
 ## Detecting Valid Latitude and Longitude Pairs
 
-<figure><img src="../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -128,7 +128,7 @@ for _ in range(0, int(input())):
 
 ## HackerRank Tweets
 
-<figure><img src="../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 ### Method 1
 
@@ -170,7 +170,7 @@ print(tweets)
 
 ## Build a Stack Exchange Scraper
 
-<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -196,7 +196,7 @@ for each in zip(identifiers, questions, time):
 
 ## Utopian Identification Number
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -213,7 +213,7 @@ for i in range(0, int(input())):
 
 ## Valid Pan Format
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -230,7 +230,7 @@ for _ in range(int(input())):
 
 ## Find HackerRank
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -259,7 +259,7 @@ for i in range(0, int(input())):
 
 ## Saying Hi
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -279,7 +279,7 @@ for _ in range(0, int(input())):
 
 ## HackerRank Language
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -296,7 +296,7 @@ for _ in range(0, int(input())):
 
 ## Split the Phone Numbers
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -314,7 +314,7 @@ for _ in range(0, int(input())):
 
 ## Detect HTML Attributes
 
-<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -342,7 +342,7 @@ for each in sorted(tagsDict.keys()):
 
 ## The British and American Style of Spelling
 
-<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -362,7 +362,7 @@ for _ in range(0, int(input())):
 
 ## UK and US: Part 2
 
-<figure><img src="../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -383,7 +383,7 @@ for _ in range(0, int(input())):
 
 ## Detect HTML Links
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -404,7 +404,7 @@ for _ in range(0, int(input())):
 
 ## Find a Word
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -426,7 +426,7 @@ for _ in range(0, int(input())):
 
 ## Detect the Email Address
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -450,7 +450,7 @@ print(";".join(sorted(emails)))
 
 ## Detect the Domain Name
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -474,7 +474,7 @@ print(";".join(sorted(domains)))
 
 ## Building a Smart IDE: Identifying comments
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -497,7 +497,7 @@ for each in comments:
 
 ## Building a Smart IDE: Programming Language Detection
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python

@@ -12,7 +12,7 @@ print("Hello, World!")
 
 ## Python If-Else
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 <pre class="language-python" data-line-numbers><code class="lang-python"><strong>if __name__ == "__main__":
 </strong>    n = int(input().strip())
@@ -26,7 +26,7 @@ print("Hello, World!")
 
 ## Arithmetic Operators
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
 ## Python: Division
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
 ## Loops
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
 ## Write a Function
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
 ## Print Function
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python

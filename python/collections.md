@@ -4,7 +4,7 @@
 
 ## Collections.Counter()
 
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -31,7 +31,7 @@ print(earned)
 
 ## DefaultDict Tutorial
 
-<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -55,7 +55,7 @@ for each in B:
 
 ## Collections.namedtuple()
 
-<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
 
 <pre class="language-python" data-line-numbers><code class="lang-python"><strong>from collections import namedtuple
 </strong>
@@ -72,7 +72,7 @@ print(sum([int(each.MARKS) for each in rows]) / n)
 
 ## Collections.OrderedDict()
 
-<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -97,7 +97,7 @@ for each in ordered_dict.items():
 
 ## Collections.deque()
 
-<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -125,7 +125,7 @@ print(" ".join(map(str, d)))
 
 ## Word Order
 
-<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -151,7 +151,7 @@ print(" ".join(map(str, d.values())))
 
 ## Company Logo
 
-<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -173,7 +173,7 @@ for each in list(chain(*top_3))[:3]:
 
 ## Piling Up!
 
-<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
 
 ### Using Iteration - Efficient
 

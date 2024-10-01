@@ -6,11 +6,11 @@
 
 ### What's divmod
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
 
 ### Solution
 
@@ -31,15 +31,15 @@ print(divmod(a, b))
 
 ### What is Polar Coordinates
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
 
 ### Pythons mathematical functions for complex numbers
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
 
 ### Solution
 
@@ -60,11 +60,11 @@ print(phase(complex_number))
 
 ### Introduction
 
-<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
 
 ### Solution
 
@@ -83,7 +83,7 @@ print(pow(a, b, m))
 
 ## Integer Come in All Sizes
 
-<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
 
 <pre class="language-python"><code class="lang-python"><strong>a = int(input())
 </strong>b = int(input())
@@ -97,7 +97,7 @@ print(pow(a, b) + pow(c, d))
 
 ## Find Angle MBC
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from math import degrees, atan
@@ -112,7 +112,7 @@ print(str(round(degrees(atan(AB / BC)))) + chr(176))
 
 ## Triangle Quest
 
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 for i in range(1,int(input())):
@@ -123,7 +123,7 @@ for i in range(1,int(input())):
 
 ## Triangle Quest 2
 
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 for i in range(1, int(input())+1):

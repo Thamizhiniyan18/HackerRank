@@ -4,7 +4,7 @@
 
 ## Calender Module
 
-<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from calendar import weekday, day_name
@@ -18,7 +18,7 @@ print(day_name[weekday(year, month, date)].upper())
 
 ## Time Delta
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python

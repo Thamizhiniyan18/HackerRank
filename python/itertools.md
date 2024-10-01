@@ -4,7 +4,7 @@
 
 ## itertools.product()
 
-<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -21,7 +21,7 @@ print(" ".join(map(str, product(A, B))))
 
 ## itertools.permutations()
 
-<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from itertools import permutations
@@ -35,7 +35,7 @@ print("\n".join(sorted(map("".join, permutations(s, int(k))))))
 
 ## itertools.combinations()
 
-<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from itertools import combinations
@@ -50,7 +50,7 @@ for i in range(int(k)):
 
 ## itertools.combinations\_with\_replacement()
 
-<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from itertools import combinations_with_replacement
@@ -64,7 +64,7 @@ print("\n".join(sorted("".join(sorted(each)) for each in combinations_with_repla
 
 ## Compress The String!
 
-<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from itertools import groupby
@@ -78,7 +78,7 @@ print(" ".join(str((len(list(group)), int(value))) for value, group in groupby(s
 
 ## Iterables and Iterators
 
-<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from itertools import combinations
@@ -95,7 +95,7 @@ print(len(list(each for each in combos if "a" in each)) / len(combos))
 
 ## Maximize It!
 
-<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 from itertools import product

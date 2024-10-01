@@ -2,7 +2,7 @@
 
 ## Standardize Mobile Number Using Decorators
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 def wrapper(f):
@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
 ## Decorators 2 - Name Directory
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 def person_lister(f):

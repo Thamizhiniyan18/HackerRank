@@ -4,7 +4,7 @@
 
 ## XML 1 - Find the Score
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import sys
@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
 ## XML 2 - Find the Maximum Depth
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import xml.etree.ElementTree as etree

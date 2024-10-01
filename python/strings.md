@@ -4,7 +4,7 @@
 
 ## sWAP cASE
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
 ### Using swapcase()
 
@@ -32,7 +32,7 @@ if __name__ == '__main__':
 
 ## String Split and Join
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 def split_and_join(line):
@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
 ## What is Your Name?
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 def print_full_name(first, last):
@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
 ## Mutations
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
 ### Using List
 
@@ -98,7 +98,7 @@ if __name__ == '__main__':
 
 ## Find a String
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -124,7 +124,7 @@ if __name__ == '__main__':
 
 ## String Validators
 
-<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -174,7 +174,7 @@ if __name__ == '__main__':
 
 ## Text Alignment
 
-<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -213,7 +213,7 @@ if __name__ == "__main__":
 
 ## Text Wrap
 
-<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -233,7 +233,7 @@ if __name__ == '__main__':
 
 ## Designer Door Mat
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -259,7 +259,7 @@ if __name__ == "__main__":
 
 ## String Formatting
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -278,7 +278,7 @@ if __name__ == '__main__':
 
 ## Alphabet Rangoli
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -323,7 +323,7 @@ if __name__ == '__main__':
 
 ## The Minion Game
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
@@ -350,7 +350,7 @@ if __name__ == '__main__':
 
 ## Merge The Tools!
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python

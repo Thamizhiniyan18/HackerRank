@@ -2,7 +2,7 @@
 
 ## Arrays
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### Using reversed()
 
@@ -83,7 +83,7 @@ print numpy.reshape(my_array,(3,2))
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -130,7 +130,7 @@ print my_array.flatten()
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -178,7 +178,7 @@ print numpy.concatenate((array_1, array_2), axis = 1)
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -224,7 +224,7 @@ print numpy.ones((1,2), dtype = numpy.int) #Type changes to int
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -276,7 +276,7 @@ print numpy.eye(8, 7, k = -2)   # 8 X 7 Dimensional array with second lower diag
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -319,7 +319,7 @@ print a**b                      #[  1.00000000e+00   6.40000000e+01   2.18700000
 print numpy.power(a, b)         #[  1.00000000e+00   6.40000000e+01   2.18700000e+03   6.55360000e+04]
 ```
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -378,7 +378,7 @@ print numpy.rint(my_array)          #[  1.   2.   3.   4.   6.   7.   8.   9.  1
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -432,7 +432,7 @@ By default, the axis value is `None`. Therefore, it performs the product over al
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -489,7 +489,7 @@ By default, the axis value is `None`. Therefore, it finds the maximum over all t
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -557,7 +557,7 @@ By default, the axis is `None`. Therefore, it computes the standard deviation of
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -602,7 +602,7 @@ print numpy.cross(A, B)     #Output : -2
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -647,7 +647,7 @@ print numpy.outer(A, B)     #Output : [[0 0]
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -716,7 +716,7 @@ The functions [polyadd](http://docs.scipy.org/doc/numpy/reference/generated/nump
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
@@ -765,7 +765,7 @@ Other routines can be found [here](http://docs.scipy.org/doc/numpy/reference/rou
 
 ### Task
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import numpy
